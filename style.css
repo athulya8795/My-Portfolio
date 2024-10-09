@@ -1,94 +1,68 @@
 *{
-    margin: 0px;
     padding: 0px;
-    font-family: "Lora", serif;
+    margin: 0px;
 }
-
-#container{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    margin-top: 18px;
-}
-
-.navbar{
-    display: flex;
-    width: 85%;
-    margin-left: 100px;
-    justify-content: space-between;
-    align-items: center;
-}
-.navbar h1{
+ul li{
     font-size: 20px;
-}
-.nav-item{
-    list-style: none;
-    display: inline;
-    margin: 10px 25px;
-    font-weight: 700;
-}
-li a:hover{
-    color: red;
-    font-size: 20px;
-}
-li a{
-    text-decoration:none;
     color: black;
 }
-#title{
-    margin-top: 13%;
-    margin-left: 8%;
-}
-#title h1{
-    font-size: 50px;
-    margin-bottom: 25px;
-}
-#name{
-    color: blue;
-} 
+
 #title a{
-    background-color: black;
+    background-color:rgba(193, 6, 193, 0.815);
     color: white;
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
 }
-#image{
-    width: 45%;
-    height: 80%;
-    position: absolute;
-    bottom: 99px;
-    right: 30px;
+#contact{
+    margin-top: 5px;
 }
-#about{
-    margin-top: 15%;
-    margin-left: 8%;
+#contact p{
+    color: green;
 }
-#heading{
-    text-align: center;
+.icon-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
 }
-#heading h2{
-    font-size: 40px;
+.icon, .up-arrow{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red ; */
+    border-radius: 50%;
 }
-#heading p{
-    font-size: 25px;
-    color: blue;
+.icon i{
+    color: black;
 }
-#content{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-top: 2rem;
+.icon:hover{
+    background-image: linear-gradient(to bottom right,rgba(0, 0, 255, 0.634),rgba(193, 6, 193, 0.815));
+    animation: shake 0.75s;
 }
-#cdetails{
-    text-align: justify;
-    font-size: 18px;
-    font-weight: 450;
-    margin-right: 99px;
-    margin-top: 50px;
+.icon:hover i{
+    color: white;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    50%{
+        transform: rotate(-15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
 }
 
-#cimage{
-    margin-left: 90px;
-    margin-bottom: 99px;
-    margin-right: 50px;
+footer{
+    padding: 3rem 0px;
+}
+footer p{
+    font-size: 17px;
+    font-weight: 700px;
+    text-align: center;
 }
