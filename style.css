@@ -76,27 +76,27 @@ ul li{
 }
 #html_bar{
     width: 95%;
-    background-color:orange;
+    background-color:blueviolet;
 }
 #css_bar{
     width: 88%;
-    background-color:orange;
+    background-color:blueviolet;
 }
 #js_bar{
     width: 89%;
-    background-color:orange;
+    background-color:blueviolet;
 }
 #react_bar{
     width: 70%;
-    background-color:orange;
+    background-color:blueviolet;
 }
 #tailwind_bar{
     width: 92%;
-    background-color:orange;
+    background-color:blueviolet;
 }
 #bootstrap_bar{
     width: 96%;
-    background-color:orange;
+    background-color:blueviolet;
 }
 @keyframes shake{
     10%{
